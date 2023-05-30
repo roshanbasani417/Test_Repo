@@ -1,0 +1,16 @@
+1. Write a Program with 
+ a. 2 static variable(int a, int b) 
+ b. 2 nonstatic variables(int c, int d) 
+ c. print those values in Main function. 
+ d. Create 3 Local variables with some values (int a, int c, int x)
+ e. Print the Local Variables and Static Variables and Nonstatic Variables
+
+2. 
+Write a Program with 
+ a. 1 static variable(int a) 
+ b. 1 nonstatic variables(int c) 
+ c. Create a New Object and print the values using VariableName, ObjectName, ClassName
+ d. Create 2 Local variables (int a, int x)
+ e. Create a New Object and print the values using VariableName, ObjectName, ClassName
+ f. Reinitialize all the Variables with different values
+ g. Create a New Object and print the values using VariableName, ObjectName, ClassName
