@@ -1,0 +1,32 @@
+
+class Class1{ 
+	//global variables are always declared out side of the "main" function
+	//global variables can be static or non-static variables 
+	//Static variables can be refered/Called in 
+	//3 ways
+	//-1 referring class name (Ex: Sys(Frist_p.a)
+	//-2 creating an object class name obj = new class name() (EX: First_p obj = new First_p) EX: obj.variable
+	//-3 By directly referring the variable itself -EX: syso(a) 
+	//NON Static variables can be referred by only one way
+	// only 1 way
+	//-1 By referring with object name (EX: obj.variable)
+	static int a=10;
+	static int b=20;
+	int c=30;
+	int d=40;
+	public static void main(String[]args){
+	System.out.println(Class1.a);
+	System.out.println(Class1.b);
+	System.out.println(a);
+	System.out.println(b);
+	Class1 obj = new Class1();
+	//System.out.println(obj.a);
+	//System.out.println(obj.b);
+	//referring non static variables by using "obj"
+	System.out.println(obj.c);
+	System.out.println(obj.d);
+
+
+	}
+	}
+
